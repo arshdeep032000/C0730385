@@ -10,6 +10,15 @@ namespace C0730385
     {
         static void Main(string[] args)
         {
+            int sum = 0;
+            int i = 15;
+            while(i<=20)
+            {
+                sum += i;
+                i++;
+            }
+            Console.WriteLine("{0}",sum);
+            Console.ReadLine();
         }
     }
 }
